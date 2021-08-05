@@ -1,0 +1,40 @@
+body{
+    background-color:rgb(231, 229, 229);
+    }
+nav, img{
+      height:6em;
+      width:8em;
+      align-self:center;
+    }
+nav, h1{
+    font-size:45px;
+    color: rgb(231, 229, 229);
+    text-align:justify;
+    align-self:center;
+    font-family:cursive;
+   }
+nav{
+     height: 150px;
+     background-color:rgb(39, 3, 39);
+     justify-content:space-between;
+     width: 100%;
+   }
+nav, ul{
+    list-style-type:none;
+    justify-content:space-around;
+    display:flex;
+    position:sticky;
+    align-self:center;
+    }
+nav, a{
+    text-decoration:none;
+    font-size:20px;
+    margin:5px;
+    padding:none;
+    color:rgb(125, 224, 208);
+    display: inline-flex;
+    margin-bottom:10px;
+}   
+a:hover{
+    color: rgb(231, 229, 229);
+}
